@@ -52,6 +52,8 @@
     <Compile Include="AmbientEditForm.Designer.cs">
       <DependentUpon>AmbientEditForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="AmbientesListForm.cs" />
+    <Compile Include="AmbientesListForm.Designer.cs" />
     <Compile Include="AmbientSearchForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -78,12 +80,19 @@
     <Compile Include="CaracteristicsForm.Designer.cs">
       <DependentUpon>CaracteristicsForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="DashboardControl.cs" />
+    <Compile Include="DashboardControl.Designer.cs" />
     <Compile Include="DashboardForm.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="DashboardForm.Designer.cs">
       <DependentUpon>DashboardForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="Database.cs" />
+    <Compile Include="DisponibilidadForm.cs" />
+    <Compile Include="DisponibilidadForm.Designer.cs" />
+    <Compile Include="EventosForm.cs" />
+    <Compile Include="EventosForm.Designer.cs" />
     <Compile Include="EventsForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -102,13 +111,54 @@
     <Compile Include="LoginForm.Designer.cs">
       <DependentUpon>LoginForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="MainForm.cs" />
+    <Compile Include="MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Administrador.cs" />
+    <Compile Include="Models\Ambiente.cs" />
+    <Compile Include="Models\AmbienteCaracteristica.cs" />
+    <Compile Include="Models\Bloque.cs" />
+    <Compile Include="Models\Caracteristica.cs" />
+    <Compile Include="Models\DetalleHorario.cs" />
+    <Compile Include="Models\Docente.cs" />
+    <Compile Include="Models\EstadoAmbiente.cs" />
+    <Compile Include="Models\EstadoReserva.cs" />
+    <Compile Include="Models\Estudiante.cs" />
+    <Compile Include="Models\Evento.cs" />
+    <Compile Include="Models\Recurrencia.cs" />
+    <Compile Include="Models\Reserva.cs" />
+    <Compile Include="Models\TipoAmbiente.cs" />
+    <Compile Include="Models\TipoFrecuencia.cs" />
+    <Compile Include="Models\Usuario.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ReportesForm.cs" />
+    <Compile Include="ReportesForm.Designer.cs">
+      <DependentUpon>ReportesForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="ReportsForm.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="ReportsForm.Designer.cs">
       <DependentUpon>ReportsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Repositories\AmbienteCaracteristicaRepository.cs" />
+    <Compile Include="Repositories\AmbienteRepository.cs" />
+    <Compile Include="Repositories\BaseRepository.cs" />
+    <Compile Include="Repositories\BloqueRepository.cs" />
+    <Compile Include="Repositories\CaracteristicaRepository.cs" />
+    <Compile Include="Repositories\EstadoAmbienteRepository.cs" />
+    <Compile Include="Repositories\EstadoReservaRepository.cs" />
+    <Compile Include="Repositories\EventoRepository.cs" />
+    <Compile Include="Repositories\RecurrenciaRepository.cs" />
+    <Compile Include="Repositories\ReservaRepository.cs" />
+    <Compile Include="Repositories\TipoAmbienteRepository.cs" />
+    <Compile Include="Repositories\TipoFrecuenciaRepository.cs" />
+    <Compile Include="Repositories\UsuarioRepository.cs" />
+    <Compile Include="ReservationDetailForm.cs" />
+    <Compile Include="ReservationDetailForm.Designer.cs">
+      <DependentUpon>ReservationDetailForm.cs</DependentUpon>
     </Compile>
     <Compile Include="ReservationEditForm.cs">
       <SubType>Form</SubType>
@@ -126,6 +176,7 @@
     <Compile Include="ReservationsForm.Designer.cs">
       <DependentUpon>ReservationsForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="RoundedPanel.cs" />
     <Compile Include="UserEditForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -138,6 +189,9 @@
     <Compile Include="UsersForm.Designer.cs">
       <DependentUpon>UsersForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="UsersListForm.cs" />
+    <Compile Include="UsersListForm.Designer.cs" />
+    <Compile Include="Utilities\Logger.cs" />
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
