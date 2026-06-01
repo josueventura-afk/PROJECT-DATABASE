@@ -46,75 +46,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AmbientEditForm.cs">
-      <SubType>Form</SubType>
+    <Compile Include="DashboardControl.cs">
+      <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="AmbientEditForm.Designer.cs">
-      <DependentUpon>AmbientEditForm.cs</DependentUpon>
-    </Compile>
-    <Compile Include="AmbientesListForm.cs" />
-    <Compile Include="AmbientesListForm.Designer.cs" />
-    <Compile Include="AmbientSearchForm.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="AmbientSearchForm.Designer.cs" />
-    <Compile Include="AmbientsForm.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="AmbientsForm.Designer.cs">
-      <DependentUpon>AmbientsForm.cs</DependentUpon>
-    </Compile>
-    <Compile Include="BlocksForm.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="BlocksForm.Designer.cs">
-      <DependentUpon>BlocksForm.cs</DependentUpon>
-    </Compile>
-    <Compile Include="CancelReservationForm.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="CancelReservationForm.Designer.cs" />
-    <Compile Include="CaracteristicsForm.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="CaracteristicsForm.Designer.cs">
-      <DependentUpon>CaracteristicsForm.cs</DependentUpon>
-    </Compile>
-    <Compile Include="DashboardControl.cs" />
     <Compile Include="DashboardControl.Designer.cs" />
-    <Compile Include="DashboardForm.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="DashboardForm.Designer.cs">
-      <DependentUpon>DashboardForm.cs</DependentUpon>
-    </Compile>
     <Compile Include="Database.cs" />
-    <Compile Include="DisponibilidadForm.cs" />
-    <Compile Include="DisponibilidadForm.Designer.cs" />
-    <Compile Include="EventosForm.cs" />
-    <Compile Include="EventosForm.Designer.cs" />
-    <Compile Include="EventsForm.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="EventsForm.Designer.cs">
-      <DependentUpon>EventsForm.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Form1.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
-    </Compile>
-    <Compile Include="LoginForm.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="LoginForm.Designer.cs">
-      <DependentUpon>LoginForm.cs</DependentUpon>
-    </Compile>
-    <Compile Include="MainForm.cs" />
-    <Compile Include="MainForm.Designer.cs">
-      <DependentUpon>MainForm.cs</DependentUpon>
-    </Compile>
     <Compile Include="Models\Administrador.cs" />
     <Compile Include="Models\Ambiente.cs" />
     <Compile Include="Models\AmbienteCaracteristica.cs" />
@@ -133,16 +69,6 @@
     <Compile Include="Models\Usuario.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="ReportesForm.cs" />
-    <Compile Include="ReportesForm.Designer.cs">
-      <DependentUpon>ReportesForm.cs</DependentUpon>
-    </Compile>
-    <Compile Include="ReportsForm.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="ReportsForm.Designer.cs">
-      <DependentUpon>ReportsForm.cs</DependentUpon>
-    </Compile>
     <Compile Include="Repositories\AmbienteCaracteristicaRepository.cs" />
     <Compile Include="Repositories\AmbienteRepository.cs" />
     <Compile Include="Repositories\BaseRepository.cs" />
@@ -156,41 +82,7 @@
     <Compile Include="Repositories\TipoAmbienteRepository.cs" />
     <Compile Include="Repositories\TipoFrecuenciaRepository.cs" />
     <Compile Include="Repositories\UsuarioRepository.cs" />
-    <Compile Include="ReservationDetailForm.cs" />
-    <Compile Include="ReservationDetailForm.Designer.cs">
-      <DependentUpon>ReservationDetailForm.cs</DependentUpon>
-    </Compile>
-    <Compile Include="ReservationEditForm.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="ReservationEditForm.Designer.cs">
-      <DependentUpon>ReservationEditForm.cs</DependentUpon>
-    </Compile>
-    <Compile Include="ReservationsByUserForm.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="ReservationsByUserForm.Designer.cs" />
-    <Compile Include="ReservationsForm.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="ReservationsForm.Designer.cs">
-      <DependentUpon>ReservationsForm.cs</DependentUpon>
-    </Compile>
     <Compile Include="RoundedPanel.cs" />
-    <Compile Include="UserEditForm.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="UserEditForm.Designer.cs">
-      <DependentUpon>UserEditForm.cs</DependentUpon>
-    </Compile>
-    <Compile Include="UsersForm.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="UsersForm.Designer.cs">
-      <DependentUpon>UsersForm.cs</DependentUpon>
-    </Compile>
-    <Compile Include="UsersListForm.cs" />
-    <Compile Include="UsersListForm.Designer.cs" />
     <Compile Include="Utilities\Logger.cs" />
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -201,9 +93,6 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="UserEditForm.resx">
-      <DependentUpon>UserEditForm.cs</DependentUpon>
-    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
